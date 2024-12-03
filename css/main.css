@@ -1,1 +1,78 @@
 @import url('global.css');
+
+
+
+
+
+/* Header START*/
+.header {
+}
+.header-top {
+  padding: 15px 0;
+  background-color: #3e3333;
+  color: #fff;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--text {
+  color: #c6c6c6;
+}
+.header-info {
+  display: flex;
+  column-gap: 30px;
+}
+.header-info-item {
+  display: flex;
+  column-gap: 18px;
+  align-items: center;
+}
+.header-info-item i {
+  font-size: 18px;
+}
+.header-social {
+  display: flex;
+  column-gap: 15px;
+}
+.header-social a {
+  font-size: 22px;
+  transition: color .35s ease;
+}
+.header-social a:hover {
+  color: #5e5e5e;
+}
+
+/* header-bottom */
+.header-bottom {
+  border-bottom: 1px solid #dcdcdc;
+}
+.container {
+}
+.header-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+}
+.header-nav ul {
+  display: flex;
+}
+.header-nav ul li:first-child a {
+  border-left: 1px solid #dcdcdc;
+}
+.header-nav ul li a {
+  display: block;
+  padding: 22px 35px;
+  font-size: 16px;
+  border-right: 1px solid #dcdcdc;
+  transition: background-color .35s ease,
+  color .35s ease;
+}
+.header-nav ul li a:hover {
+  background-color: var(--color-1);
+  color: #fff;
+}
+/* Header END*/
